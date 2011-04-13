@@ -3,7 +3,7 @@ require 'net/http'
 require 'net/https'
 require 'yaml'
 require 'sso/user'
-require 'memory_cache'
+require 'sso/memory_cache'
 
 # Performs old-mode SSO against Websignon (i.e.
 # checks the WarwickSSO cookie and sends a requestType=1
