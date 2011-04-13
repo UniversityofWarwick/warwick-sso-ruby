@@ -36,4 +36,4 @@ class MemoryCache
    end
 
 end
-
+end
