@@ -1,0 +1,5 @@
+# Welcome to SSO configuration, YAML style
+#
+# provider_id: "urn:your-provider-id:some:service"
+# uri_prefix: http://your-app.warwick.ac.uk
+#
