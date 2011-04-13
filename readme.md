@@ -11,14 +11,12 @@ Use it like this
     class ApplicationController < ActionController::Base
       helper :all # include all helpers, all the time
 
-  .   include SSO::Client
+      include SSO::Client
       before_filter :sso_filter
-
-...
 
     class MyController < ApplicationController
 
-...     awesome stuff here
+       awesome stuff here
 
 
 Pull requests gratefully received
